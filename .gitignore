@@ -1,0 +1,19 @@
+# Signing keys and issued customer licenses
+private.pem
+private-*.pem
+*.key
+keys.log
+
+# Generated builds and local state
+dist/
+__pycache__/
+*.py[cod]
+.vs/
+.vscode/
+*.user
+*.suo
+*.log
+
+# Local configuration
+.env
+.env.*
